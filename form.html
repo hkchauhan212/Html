@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>HTMl Forms</title>
+	<style type="text/css">
+		
+	</style>
+</head>
+<body>
+	<!-- simple form -->
+	<section class="hari_form">
+		<form action="/php_file.php">
+			<div>
+				<label for="fname">First name:</label>
+				<input type="text" name="Myfname" placeholder="First name"><br><br>
+			</div>
+			<div>
+				<label for="middlename">middle name:</label>
+				<input type="text" name="Mymiddlename" placeholder="Middle name"><br><br>
+			</div>
+			<div>
+				<label for="lname">Last name:</label>
+				<input type="text" name="Mylname" placeholder="Last name"><br><br>
+			</div>
+			<div>
+				<input type="submit" name="Mysubmit" value="submit" >
+				<input type="reset" name="Myreset" value="reset">
+			</div>
+			<div>
+			</div>
+		</form>
+	</section>
+	<br><hr>
+	<div>
+		<form action="content.php" method="get">
+			<div>
+				<label for="Name" >First name:</label>
+				<input type="text" name="Myfname" id="Name" placeholder="First Name" value="FirstName">
+			</div>
+			<div>
+				<label for="email">Email:</label>
+				<input type="email" name="Myemail" id="email" placeholder="email" value="Email">
+			</div>
+			<div>
+				<label for="Mo_number">Mo number:</label>
+				<input type="number" name="Mynumber" id="Mo_number" placeholder="mobile number" value="mobile number">
+			</div>
+			<div>
+				<p><strong>chose your vehical:</strong></p>
+
+				<label for="vehical1"> i have a bike</label>
+				<input type="checkbox" name="Myvehical1" id="vehical1" value="bike">
+
+				<label for="vehical2">i have a car</label>
+				<input type="checkbox" name="Myvehical2" id="vehical2" value="car">
+
+				<label for="vehical3"> i have a truk</label>
+				<input type="checkbox" name="Myvehical3" id="vehical3" value="vehical3">
+			</div>
+			<div>
+				<p><strong>chose your age:</strong></p>
+				<label for="nil">01-7</label>
+				<input type="radio" name="Myage" id="nil" value="childran">
+
+				<label for="nitin">07-18</label>
+				<input type="radio" name="Myage" id="nitin" value="studen">
+
+				<label for="mukesh">18-30</label>
+				<input type="radio" name="Myage" id="mukesh" value="yaung ">	
+			</div>
+			<input type="submit" name="submit">
+			<input type="reset" name="reset">
+		</form>
+	</div>
+</body>
+</html>
+
+<!-- 01:- HTML Forms -->
+	<!-- An HTML form is used to collect user input. The user input is most often sent to a server for processing.
+	The <form> Element
+		The HTML <form> element is used to create an HTML form for user input:
+		The <form> element is a container for different types of input elements, such as: text fields, checkboxes, radio buttons, submit buttons, etc. -->
+
+<!-- 02:- The <input> Element -->
+	<!-- The HTML <input> element is the most used form element.
+	An <input> element can be displayed in many ways, depending on the type attribute.
+		<input type="text">
+			Displays a single-line text input field
+		<input type="radio">
+			Displays a radio button (for selecting one of many choices)
+		<input type="checkbox">
+			Displays a checkbox (for selecting zero or more of many choices)
+		<input type="submit">
+			Displays a submit button (for submitting the form)
+		<input type="button">
+			Displays a clickable button -->

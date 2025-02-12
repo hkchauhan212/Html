@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Block $ Inline</title>
+	<style>
+		.p1{
+			/*Use display block and working border, padding, margin, height, width and display is full width. */
+			display: block;
+			background-color: gray;
+			color: whitesmoke;
+			width: 65%;
+			height: auto;
+			padding: 50px;
+			margin: 50px;
+			border-radius: 20px;
+		}
+		.p2{
+			/*Use display inline and working only border, padding, margin and not working height & width */
+			display: inline;
+			background-color: gray;
+			color: whitesmoke;
+			width: 10000px;
+			height: 100000px;
+			padding: 15px;
+			margin: 80px;
+			border-radius: 20px;
+			border: 5px solid black;
+		}
+		/* Use display inline-block this is working all element. */
+		.p3{
+			display: inline-block;
+			background-color: gray;
+			color: whitesmoke;
+			width: 33%;
+			height: auto;
+			padding: 15px;
+			margin: 20px;
+			border-radius: 20px;
+		}
+	</style>
+</head>
+<body>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+	<h1>This is block-level element</h1>
+	<p class="p1">This is block-level element.</p>
+	<p class="p1">This is block-level element.</p>
+	<p class="p1">This is block-level element.</p>
+	<hr>
+	<h1>This is inline element</h1>
+	<p class="p2">This is inline element.</p>
+	<p class="p2">This is inline element.</p>
+	<p class="p2">This is inline element.</p>
+	<hr>
+	<h1>This is inline-block element</h1>
+	<p class="p3">This is inline-block element.</p>
+	<p class="p3">This is inline-block element.</p>
+	<p class="p3">This is inline-block element.</p>
+
+
+	<!-- Block-level elements start on a new line and take full width, like <div>, <p>, and <h1>. They stack vertically.
+	Inline elements flow within text without breaking the line, like <span>, <a>, and <img>. They take only the necessary width.
+	Yes, block-level elements can contain inline elements, like <div><span>Text</span></div>.
+	No, inline elements cannot contain block-level elements. Use block-level elements to wrap inline content.
+	inline elements do not accept width/height. inline-block elements do, and they flow with text. -->
+
+</body>
+</html>
