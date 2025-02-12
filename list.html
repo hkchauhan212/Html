@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>List</title>
+	<link rel="icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/128/151/151917.png">
+	<style type="text/css">
+		.main{
+			display: flex;
+			align-items: center;
+			justify-content: space-around;
+		}
+		.list{
+			float: left;
+		}
+		li a{
+			display: block; 
+			color: white;
+  			text-align: center;
+  			padding: 16px;
+  			text-decoration: none;
+		}
+		.list a:hover{
+			background-color: darkred;
+			color: white;
+		}
+	</style>
+</head>
+<body>
+	<!-- HTML lists allow web developers to group a set of related items in lists. -->
+	<!-- disc	Sets the list item marker to a bullet (default)
+	circle	Sets the list item marker to a circle
+	square	Sets the list item marker to a square
+	none	The list items will not be marked -->
+	<h1><strong>This is sampe code is unorder list.</strong></h1>
+	<!-- This is a unorder list -->
+	<ul>
+		<li>Apple</li>
+		<li>Banana</li>
+		<li>Mango</li>
+		<li>Kiwi</li>
+	</ul>
+	<hr>
+
+	<!-- This is a order list -->
+	<!-- type="1"	The list items will be numbered with numbers (default)
+	type="A"	The list items will be numbered with uppercase letters
+	type="a"	The list items will be numbered with lowercase letters
+	type="I"	The list items will be numbered with uppercase roman numbers
+	type="i"	The list items will be numbered with lowercase roman numbers -->
+	<ol>
+		<li>Apple</li>
+		<li>Banana</li>
+		<li>Mango</li>
+		<li>Kiwi</li>
+	</ol>
+	<hr>
+	<!-- This is list example of prectice set. -->
+	<h1><strong>This is list tag.</strong></h1>
+	<ol>
+		<li>Apple
+			<ul>
+				<li>small Apple 
+					<ul>
+						<li>Red Apple</li>
+						<li>White Apple</li>
+					</ul>
+				</li>
+				<li>big Apple
+					<ol type="I">
+						<li>Red Apple</li>
+						<li>White Apple</li>
+					</ol>
+				</li>
+			</ul>
+		</li>
+		<li>Banana</li>
+		<li>Mango</li>
+		<li>Kiwi</li>
+	</ol>
+	<hr>
+	
+	<!-- This is web page navbar -->
+	<h1><strong>HTML List Using NAVBAR.</strong></h1>
+	<ul class="main" style="list-style-type: none; margin: 0; padding: 0; overflow: hidden; background-color: #333333;">
+  		<li class="list"><a href="#home">Home</a></li>
+  		<li class="list"><a href="#news">News</a></li>
+  		<li class="list"><a href="#contact">Contact</a></li>
+  		<li class="list"><a href="#about">About</a></li>
+	</ul>
+
+</body>
+</html>
