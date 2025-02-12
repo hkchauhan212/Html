@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Layout</title>
+	<style type="text/css">
+	 	*{
+	 		box-sizing: border-box;
+	 	}
+	 	header{
+	 		background-color: gray;
+	 		color: whitesmoke;
+	 		text-align: center;
+	 		font-size: 1.7rem;
+	 		display: inline-block;
+	 		width: 100%;
+	 	}
+	 	section{
+	 		
+	 		display: flex ;
+	 		align-items: center;
+	 		justify-content: space-between;
+	 		width: 100%;
+	 		height: 450px;isplay: flex;
+	 	}
+	 	nav{
+	 		background-color: aqua;
+	 		width: 20%;
+	 	}
+	 	ul{
+	 		width: ;
+	 		height: 200px;
+	 		padding: 10px 30px;
+	 	}
+	 	li{
+	 		list-style-type: none;
+	 		background-color: black;
+	 		border-radius: 20px;
+	 		color: whitesmoke;
+	 		width: 100px;
+	 		margin-top: 10px;
+	 		padding: 5px;
+	 		text-align: center;
+	 	}
+	 	a{
+	 		color: whitesmoke;
+	 		text-decoration: none;
+	 	}
+	 	article{
+	 		width: 70%;
+	 		margin: 50px;
+	 		font-size: 1.2rem;
+	 	}
+	 	footer{
+	 		position: fixed;
+	 		bottom: 0px;
+	 		display: inline-block;
+	 		width: 100%;
+	 		background-color: gray;
+	 		font-size: 1rem;
+	 		height: 45px;
+	 		text-align: center;
+	 		padding: 3px 0px;
+	 	}
+	</style>
+</head>
+<body>
+	<!-- <header> - Defines a header for a document or a section
+	<nav> - Defines a set of navigation links
+	<section> - Defines a section in a document
+	<article> - Defines an independent, self-contained content
+	<aside> - Defines content aside from the content (like a sidebar)
+	<footer> - Defines a footer for a document or a section
+	<details> - Defines additional details that the user can open and close on demand
+	<summary> - Defines a heading for the <details> element -->
+
+	<h2>Css layout Float</h2>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud.</p>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua.</p>
+	<!-- heaader start -->
+	<header>
+		<h2 class="header">This is Web site header</h2>		
+	</header>
+	<!-- header end -->
+
+	<!-- navbar start -->
+	<!-- <div class="nav">
+		<ul>
+			<li>Home</li>
+			<li>About us</li>
+			<li>contact</li>
+			<li>Help</li>
+		</ul>
+	</div> -->
+	<!-- navbar end -->
+	
+	<!-- section start -->
+	<section class="section main_webpage">
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Abour us</a></li>
+				<li><a href="#">Contect</a></li>
+				<li><a href="#">Help</a></li>
+			</ul>
+		</nav>
+		<article>
+			<h2>This is paragraph</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat.</p>
+		</article>
+	</section>
+	<!-- section end -->
+	<!-- footer start -->
+	<footer>
+		<p>2024 &copy; AATMAN INFOTECH &hearts;</p>
+	</footer>
+	<!-- footer end -->
+</body>
+</html>

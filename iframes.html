@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>iframes</title>
+</head>
+<body>
+	<!-- This is sample syntax is iframe. -->
+	<iframe src="img/google.jpg" style="width: 400px; height: 180px;" title="this is sample img"></iframe>
+	<hr>
+
+	<!-- Iframe - Remove the Border
+	By default, an iframe has a border around it.
+	To remove the border, add the style attribute and use the CSS border property: -->
+	<iframe src="img/images03.jpg" style="border: none; width: 550px; height: 500px;"></iframe>
+	<hr>
+
+	<!-- Iframe - Target for a Link
+	An iframe can be used as the target frame for a link.
+	The target attribute of the link must refer to the name attribute of the iframe: -->
+	<iframe src="img/images04.jpg" name="iframe_a" height="650px" width="70%" title="Iframe Example"></iframe>
+	<p><a href="https://www.wikipedia.org/" target="iframe_a">WIKIPEDIA IS A FREE OF COST</a></p>
+	<hr>
+
+	<!-- The HTML <iframe> tag specifies an inline frame
+	The src attribute defines the URL of the page to embed
+	Always include a title attribute (for screen readers)
+	The height and width attributes specify the size of the iframe
+	Use border:none; to remove the border around the iframe -->
+	<iframe src="img/images05.jpg" title="this is basic iframe images" style="width: 65%; height: 520px;"></iframe>
+	<hr>
+	<iframe src="img/images04.jpg" title="this is images" name="harik" style="width: 60%; height: 400px;"></iframe>
+	<p><a href="https://www.wikipediya.com/" target="harik">this is rendom url</a></p>
+	<hr>
+	
+	<!-- This img is relative path -->
+	<p>thia is relative img</p>
+	<img src="../photos/img02.jpg" alt="natural" style="width: 720px; height: 500px;">
+	<hr><hr>
+
+	<!-- this img is absolute path -->
+	<p>this is absolute img</p>
+	<img src="https://tse3.mm.bing.net/th?id=OIP.Jg35DTU8xEFi-BbUaql9CQHaEI&pid=Api&P=0&h=180" alt="computer img" style="width: 720px; height:auto;">
+</body>
+</html>
